@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐾 PetShop Vida Mansa - Caroline Toth</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+
+  <header class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1>🐾PetShop Vida Mansa🐾</h1>
+      <!-- MENU DE NAVEGAÇÃO -->
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a href="#acessorios" class="nav-link text-white">Acessórios</a></li>
+          <li class="nav-item"><a href="#racoes" class="nav-link text-white">Rações</a></li>
+          <li class="nav-item"><a href="#higiene" class="nav-link text-white">Higiene</a></li>
+          <li class="nav-item"><a href="#cadastro" class="nav-link text-white">Agendamento</a></li>
+          <li class="nav-item"><a href="help.html" class="nav-link text-warning">Ajuda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+   <!-- BANNER -->
+    
+  <main class="container my-4">
+
+    <div id="mensagem-boas-vinda" class="alert alert-info text-center"></div>
+
+    <section id="banner" class="mb-5">
+      <div id="carrosselPet" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img\banner1.png" class="d-block w-100" alt="promoção de banho e tosa para o mês de março">
+          </div>
+          <div class="carousel-item">
+            <img src="img\banner2.png" class="d-block w-100" alt="novas rações premium no estoque">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselPet" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrosselPet" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: ACESSÓRIOS -->
+    <section id="acessorios" class="py-5">
+      <div class="container">
+        <h2 class="text-primary mb-4 border-bottom pb-2">Acessórios</h2>
+        <!-- GRID DE PRODUTOS -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+            <!-- PRODUTO 1 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/cama_nuvem.jpg" class="card-img-top" alt="caminha redonda e muito fofa para pets na cor cinza claro, com textura peludinha que lembra uma nuvem">
+              <div class="card-body">
+                <h5 class="card-title">Caminha Nuvem Confort</h5>
+                <p class="card-text">Caminha nuvem super macia e quentinha, perfeita pra garantir o descanso e o conforto que o seu pet merece depois de um dia de brincadeiras.</p>
+                <p class="h5 text-success">R$ 129,90</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUTO 2 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/brinquedo_nos.jpeg" class="card-img-top" alt="um cachorro pastor alemão brincando de cabo de guerra com um brinquedo de corda verde e preta com três nós, segurado por uma mão humana">
+              <div class="card-body">
+                <h5 class="card-title">Corda Interativa 3 Nós</h5>
+                <p class="card-text">Corda interativa com três nós, perfeita para brincar com o seu pet e fortalecer o vínculo entre vocês.</p>
+                <p class="h5 text-success">R$ 31,90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: RAÇÕES -->
+    <section id="racoes" class="py-5">
+      <div class="container">
+        <h2 class="text-primary mb-4 border-bottom pb-2">Rações Secas</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+            <!-- PRODUTO 1 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/racao_gato_castrado.jpg" class="card-img-top" alt="pacote de ração gran plus gourmet para gatos adultos castrados sabor salmão e frango, com desenho de pedaços de salmão na embalagem">
+              <div class="card-body">
+                <h5 class="card-title">Ração Gatos Castrados - 3kg</h5>
+                <p class="card-text">Ração gourmet para gatos castrados sabor salmão e frango, ajuda na saúde do trato urinário e no controle de peso do seu gatinho.</p>
+                <p class="h5 text-success">R$ 94,90</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUTO 2 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/racao-cachorro.jpg" class="card-img-top" alt="pacote de ração gran plus choice para cães adultos sabor frango e carne, com a foto de um cachorro golden retriever na frente">
+              <div class="card-body">
+                <h5 class="card-title">Ração Super Premium Cães - 10kg</h5>
+                <p class="card-text">Ração gran plus choice para cães adultos, sabor frango e carne. nutrição completa e balanceada pro seu melhor amigo crescer forte.</p>
+                <p class="h5 text-success">R$ 178,90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: HIGIENE -->
+    <section id="higiene" class="py-5">
+      <div class="container">
+        <h2 class="text-primary mb-4 border-bottom pb-2">Higiene e Limpeza</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+          <!-- PRODUTO 1 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/tapete_higienico.jpg" class="card-img-top" alt="pacote de tapetes higiênicos premium da marca meau com 30 unidades, embalagem azul com a foto de um cachorro sentado sobre o tapete">
+              <div class="card-body">
+                <h5 class="card-title">Tapete Higiênico Premium - 30 Unid.</h5>
+                <p class="card-text">Tapete higiênico premium com 30 unidades, alta absorção e barreiras laterais que não deixam o xixi vazar pelo chão da sua casa.</p>
+                <p class="h5 text-success">R$ 69,90</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUTO 2 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/shampoo_2em1.jpg" class="card-img-top" alt="frasco de shampoo e condicionador 2 em 1 da marca pet dengo, embalagem branca e azul de 700ml para cães e gatos">
+              <div class="card-body">
+                <h5 class="card-title">Shampoo Neutro 2 em 1</h5>
+                <p class="card-text">Shampoo e condicionador 2 em 1 pet dengo, limpa e hidrata o pelo ao mesmo tempo com um cheirinho delicioso que dura muito tempo.</p>
+                <p class="h5 text-success">R$ 26,90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- FORMULÁRIO -->
+    <section id="cadastro" class="my-5 p-4 bg-light rounded shadow-sm">
+      <h2 class="text-center mb-4">Cadastro de Cliente e Pet</h2>
+      
+      <form id="formPetshop" class="row g-3">
+
+        <!-- DADOS DO CLIENTE -->
+        <div class="col-md-6">
+          <label for="nome" class="form-label">Nome Completo</label>
+          <input type="text" class="form-control" id="nome" placeholder="digite seu nome" required>
+        </div>
+        <div class="col-md-6">
+          <label for="cpf" class="form-label">CPF</label>
+          <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00" required>
+        </div>
+        <div class="col-md-8">
+          <label for="endereco" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="endereco" placeholder="rua, número, bairro" required>
+        </div>
+
+        <!-- SEXO(f/m) -->
+        <div class="col-md-4">
+          <label class="form-label d-block">Sexo</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="sexo" id="masculino" value="m">
+            <label class="form-check-label" for="masculino">M</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="sexo" id="feminino" value="f">
+            <label class="form-check-label" for="feminino">F</label>
+          </div>
+        </div>
+
+        <!-- CONTATO -->
+        <div class="col-md-6">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com" required>
+        </div>
+        <div class="col-md-6">
+          <label for="telefone" class="form-label">Telefone</label>
+          <input type="tel" class="form-control" id="telefone" placeholder="(51) 99999-9999" required>
+        </div>
+
+        <hr>
+        
+        <!-- DADOS DO PET -->
+        <h4 class="mt-4">Dados do Pet</h4>
+        <div class="col-md-5">
+          <label for="nomePet" class="form-label">Nome do Pet</label>
+          <input type="text" class="form-control" id="nomePet" placeholder="nome do bichinho" required>
+        </div>
+        <div class="col-md-4">
+          <label for="raca" class="form-label">Raça</label>
+          <input type="text" class="form-control" id="raca" placeholder="ex: golden, persa..." required>
+        </div>
+        <div class="col-md-3">
+          <label for="idade" class="form-label">Idade (anos)</label>
+          <input type="number" class="form-control" id="idade" min="0" required>
+        </div>
+
+        <hr>
+        
+        <!-- AGENDAMENTO -->
+        <h4 class="mt-4">Agendamento de Serviço</h4>
+        <div class="col-md-6">
+          <label class="form-label">Escolha o Serviço</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="banho" value="banho">
+            <label class="form-check-label" for="banho">Banho</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="tosa" value="tosa">
+            <label class="form-check-label" for="tosa">Tosa</label>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Método de Entrega</label>
+          <select class="form-select" id="entrega" required>
+            <option value="" selected disabled>selecione...</option>
+            <option value="local">Entrega no Local</option>
+            <option value="tele">Tele-Busca</option>
+          </select>
+        </div>
+
+        <div class="col-md-6">
+          <label for="data" class="form-label">Data</label>
+          <input type="date" class="form-control" id="data" required>
+        </div>
+        <div class="col-md-6">
+          <label for="horario" class="form-label">Horário</label>
+          <input type="time" class="form-control" id="horario" required>
+        </div>
+
+        <div class="col-12 mt-4">
+          <button type="submit" class="btn btn-primary btn-lg w-100">Finalizar Agendamento</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white pt-4 pb-2">
+    <div class="container text-center">
+      <p><strong>© 2026 petshop vida mansa</strong> - desenvolvido por caroline toth</p>
+      <p>ads - pucrs online | porto alegre, rs</p>
+      <p>contato: (51) 99999-9999 | caroline.toth@pucrs.br</p>
+      <a href="#top" class="btn btn-outline-light btn-sm mt-2"> Ir para o topo</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
